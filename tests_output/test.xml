@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="0.008000" timestamp="Tue, 12 Jun 2018 22:10:41 GMT">
+  
+    <testcase name="Search for Item - Keyword" classname="test" time="0.008000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / Search for Item - Keyword]:
+
+  Error: itemPrice was not found in &#34;kslObjects&#34;. Available elements: tabSearch,keywordInput,priceMin,priceMax,zipInput,distanceFrom,milesexact,miles10,miles25,miles50,miles100,miles150,miles200,miles201,searchButton,catAppliances,catBaby,catComputers,catElectronics,catFurniture,subDesktop,subLaptop,subNintendo,subVideo,itemInfoTitle,itemInfoPrice,item1,imagePhoto,listingDetail,listingPrice,listingLocation,sellerName,sellerPhone,sellerEmail,prevButton,nextButton,viewAllButton
+    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
+    at Object.visible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
+    at Object.Search for Item - Keyword (/Users/jeffmeyer/Documents/Projects/ksl/tests/test.js:18:17)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
