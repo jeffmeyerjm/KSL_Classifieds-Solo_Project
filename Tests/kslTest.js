@@ -84,7 +84,7 @@ module.exports = {
         .verify.visible('@sellerName' , 'Seller Name Visible')
         .verify.visible('@sellerPhone' , 'Seller Phone Visible')
         .verify.visible('@sellerEmail', 'Seller Email Visible')
-        .verify.visible('@imagePhoto', 'Listing Photo Visible')
+        .verify.visible('@listingPhoto', 'Listing Photo Visible')
     },
 
 
